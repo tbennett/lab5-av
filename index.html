@@ -10,8 +10,21 @@
     
 </head>
 <body>
-    <audio class="low-rider" src="a/low-rider.mp3" controls></audio>
+    <audio class="low-rider" controls>
+        <source src="a/low-rider.webm" type="audio/webm">
+        <source src="a/low-rider.mp3" type="audio/mp3">
+        <p>Here is a link to the audio file itself
+            <a href="a/low-rider.mp3">Audio here</a>
+        </p>
+    </audio>
+    <button id="stop">stop</button>
 
-    <video class="leverage" src="v/leverage-a-synergy.mp4" controls></video>
+    <video class="leverage" controls>
+        <source src="v/leverage-a-synergy.webm" type="video/webm">
+        <source src="v/leverage-a-synergy.mp4" type="video/mp4">
+        <p>Here is a link to the video file itself
+            <a href="v/leverage-a-synergy.mp4">Video here</a>
+        </p>
+    </video>
 </body>
 </html>
